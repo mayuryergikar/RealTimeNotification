@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67BB67AC21523E3200115E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB67AB21523E3200115E78 /* AppDelegate.swift */; };
+		67BB67AE21523E3200115E78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB67AD21523E3200115E78 /* ViewController.swift */; };
+		67BB67B121523E3200115E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BB67AF21523E3200115E78 /* Main.storyboard */; };
+		67BB67B321523E3400115E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BB67B221523E3400115E78 /* Assets.xcassets */; };
+		67BB67B621523E3400115E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BB67B421523E3400115E78 /* LaunchScreen.storyboard */; };
+		67BB67C121523E3400115E78 /* RealTimeNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB67C021523E3400115E78 /* RealTimeNotificationsTests.swift */; };
+		67BB67CC21523E3400115E78 /* RealTimeNotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB67CB21523E3400115E78 /* RealTimeNotificationsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67BB67BD21523E3400115E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BB67A021523E3200115E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BB67A721523E3200115E78;
+			remoteInfo = RealTimeNotifications;
+		};
+		67BB67C821523E3400115E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BB67A021523E3200115E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BB67A721523E3200115E78;
+			remoteInfo = RealTimeNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67BB67A821523E3200115E78 /* RealTimeNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB67AB21523E3200115E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67BB67AD21523E3200115E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67BB67B021523E3200115E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67BB67B221523E3400115E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BB67B521523E3400115E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67BB67B721523E3400115E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BB67BC21523E3400115E78 /* RealTimeNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB67C021523E3400115E78 /* RealTimeNotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeNotificationsTests.swift; sourceTree = "<group>"; };
+		67BB67C221523E3400115E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BB67C721523E3400115E78 /* RealTimeNotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeNotificationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB67CB21523E3400115E78 /* RealTimeNotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeNotificationsUITests.swift; sourceTree = "<group>"; };
+		67BB67CD21523E3400115E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67BB67A521523E3200115E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB67B921523E3400115E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB67C421523E3400115E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67BB679F21523E3200115E78 = {
+			isa = PBXGroup;
+			children = (
+				67BB67AA21523E3200115E78 /* RealTimeNotifications */,
+				67BB67BF21523E3400115E78 /* RealTimeNotificationsTests */,
+				67BB67CA21523E3400115E78 /* RealTimeNotificationsUITests */,
+				67BB67A921523E3200115E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67BB67A921523E3200115E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67BB67A821523E3200115E78 /* RealTimeNotifications.app */,
+				67BB67BC21523E3400115E78 /* RealTimeNotificationsTests.xctest */,
+				67BB67C721523E3400115E78 /* RealTimeNotificationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67BB67AA21523E3200115E78 /* RealTimeNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				67BB67AB21523E3200115E78 /* AppDelegate.swift */,
+				67BB67AD21523E3200115E78 /* ViewController.swift */,
+				67BB67AF21523E3200115E78 /* Main.storyboard */,
+				67BB67B221523E3400115E78 /* Assets.xcassets */,
+				67BB67B421523E3400115E78 /* LaunchScreen.storyboard */,
+				67BB67B721523E3400115E78 /* Info.plist */,
+			);
+			path = RealTimeNotifications;
+			sourceTree = "<group>";
+		};
+		67BB67BF21523E3400115E78 /* RealTimeNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				67BB67C021523E3400115E78 /* RealTimeNotificationsTests.swift */,
+				67BB67C221523E3400115E78 /* Info.plist */,
+			);
+			path = RealTimeNotificationsTests;
+			sourceTree = "<group>";
+		};
+		67BB67CA21523E3400115E78 /* RealTimeNotificationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67BB67CB21523E3400115E78 /* RealTimeNotificationsUITests.swift */,
+				67BB67CD21523E3400115E78 /* Info.plist */,
+			);
+			path = RealTimeNotificationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67BB67A721523E3200115E78 /* RealTimeNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BB67D021523E3400115E78 /* Build configuration list for PBXNativeTarget "RealTimeNotifications" */;
+			buildPhases = (
+				67BB67A421523E3200115E78 /* Sources */,
+				67BB67A521523E3200115E78 /* Frameworks */,
+				67BB67A621523E3200115E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealTimeNotifications;
+			productName = RealTimeNotifications;
+			productReference = 67BB67A821523E3200115E78 /* RealTimeNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67BB67BB21523E3400115E78 /* RealTimeNotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BB67D321523E3400115E78 /* Build configuration list for PBXNativeTarget "RealTimeNotificationsTests" */;
+			buildPhases = (
+				67BB67B821523E3400115E78 /* Sources */,
+				67BB67B921523E3400115E78 /* Frameworks */,
+				67BB67BA21523E3400115E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BB67BE21523E3400115E78 /* PBXTargetDependency */,
+			);
+			name = RealTimeNotificationsTests;
+			productName = RealTimeNotificationsTests;
+			productReference = 67BB67BC21523E3400115E78 /* RealTimeNotificationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67BB67C621523E3400115E78 /* RealTimeNotificationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BB67D621523E3400115E78 /* Build configuration list for PBXNativeTarget "RealTimeNotificationsUITests" */;
+			buildPhases = (
+				67BB67C321523E3400115E78 /* Sources */,
+				67BB67C421523E3400115E78 /* Frameworks */,
+				67BB67C521523E3400115E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BB67C921523E3400115E78 /* PBXTargetDependency */,
+			);
+			name = RealTimeNotificationsUITests;
+			productName = RealTimeNotificationsUITests;
+			productReference = 67BB67C721523E3400115E78 /* RealTimeNotificationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67BB67A021523E3200115E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Mayur;
+				TargetAttributes = {
+					67BB67A721523E3200115E78 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					67BB67BB21523E3400115E78 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 67BB67A721523E3200115E78;
+					};
+					67BB67C621523E3400115E78 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 67BB67A721523E3200115E78;
+					};
+				};
+			};
+			buildConfigurationList = 67BB67A321523E3200115E78 /* Build configuration list for PBXProject "RealTimeNotifications" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67BB679F21523E3200115E78;
+			productRefGroup = 67BB67A921523E3200115E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67BB67A721523E3200115E78 /* RealTimeNotifications */,
+				67BB67BB21523E3400115E78 /* RealTimeNotificationsTests */,
+				67BB67C621523E3400115E78 /* RealTimeNotificationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67BB67A621523E3200115E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB67B621523E3400115E78 /* LaunchScreen.storyboard in Resources */,
+				67BB67B321523E3400115E78 /* Assets.xcassets in Resources */,
+				67BB67B121523E3200115E78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB67BA21523E3400115E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB67C521523E3400115E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67BB67A421523E3200115E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB67AE21523E3200115E78 /* ViewController.swift in Sources */,
+				67BB67AC21523E3200115E78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB67B821523E3400115E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB67C121523E3400115E78 /* RealTimeNotificationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BB67C321523E3400115E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB67CC21523E3400115E78 /* RealTimeNotificationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67BB67BE21523E3400115E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BB67A721523E3200115E78 /* RealTimeNotifications */;
+			targetProxy = 67BB67BD21523E3400115E78 /* PBXContainerItemProxy */;
+		};
+		67BB67C921523E3400115E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BB67A721523E3200115E78 /* RealTimeNotifications */;
+			targetProxy = 67BB67C821523E3400115E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67BB67AF21523E3200115E78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BB67B021523E3200115E78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67BB67B421523E3400115E78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BB67B521523E3400115E78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67BB67CE21523E3400115E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67BB67CF21523E3400115E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67BB67D121523E3400115E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealTimeNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spieler.RealTimeNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67BB67D221523E3400115E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealTimeNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spieler.RealTimeNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67BB67D421523E3400115E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealTimeNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spieler.RealTimeNotificationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealTimeNotifications.app/RealTimeNotifications";
+			};
+			name = Debug;
+		};
+		67BB67D521523E3400115E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealTimeNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spieler.RealTimeNotificationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealTimeNotifications.app/RealTimeNotifications";
+			};
+			name = Release;
+		};
+		67BB67D721523E3400115E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealTimeNotificationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spieler.RealTimeNotificationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealTimeNotifications;
+			};
+			name = Debug;
+		};
+		67BB67D821523E3400115E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealTimeNotificationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spieler.RealTimeNotificationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealTimeNotifications;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67BB67A321523E3200115E78 /* Build configuration list for PBXProject "RealTimeNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BB67CE21523E3400115E78 /* Debug */,
+				67BB67CF21523E3400115E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BB67D021523E3400115E78 /* Build configuration list for PBXNativeTarget "RealTimeNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BB67D121523E3400115E78 /* Debug */,
+				67BB67D221523E3400115E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BB67D321523E3400115E78 /* Build configuration list for PBXNativeTarget "RealTimeNotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BB67D421523E3400115E78 /* Debug */,
+				67BB67D521523E3400115E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BB67D621523E3400115E78 /* Build configuration list for PBXNativeTarget "RealTimeNotificationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BB67D721523E3400115E78 /* Debug */,
+				67BB67D821523E3400115E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67BB67A021523E3200115E78 /* Project object */;
+}
