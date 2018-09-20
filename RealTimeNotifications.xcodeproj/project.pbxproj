@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		672FB4DA2153952F003AC9CC /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FB4D82153952F003AC9CC /* LocationManager.m */; };
 		67BB67AC21523E3200115E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB67AB21523E3200115E78 /* AppDelegate.swift */; };
-		67BB67AE21523E3200115E78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB67AD21523E3200115E78 /* ViewController.swift */; };
+		67BB67AE21523E3200115E78 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB67AD21523E3200115E78 /* HomeViewController.swift */; };
 		67BB67B121523E3200115E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BB67AF21523E3200115E78 /* Main.storyboard */; };
 		67BB67B321523E3400115E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BB67B221523E3400115E78 /* Assets.xcassets */; };
 		67BB67B621523E3400115E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BB67B421523E3400115E78 /* LaunchScreen.storyboard */; };
 		67BB67C121523E3400115E78 /* RealTimeNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB67C021523E3400115E78 /* RealTimeNotificationsTests.swift */; };
 		67BB67CC21523E3400115E78 /* RealTimeNotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB67CB21523E3400115E78 /* RealTimeNotificationsUITests.swift */; };
+		707C324F86AB61D4A0689C7C /* Pods_RealTimeNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE594751FC957B74350862A /* Pods_RealTimeNotifications.framework */; };
+		924870C1475AD5DAE06978F2 /* Pods_RealTimeNotificationsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E01B9A4A2627824BED03EEE /* Pods_RealTimeNotificationsUITests.framework */; };
+		E8A7E824E80FE85BF8CFBC4B /* Pods_RealTimeNotificationsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AB7119652909F1CDC65DFB /* Pods_RealTimeNotificationsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B223A108A38A7583E6EC6D /* Pods-RealTimeNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeNotifications.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeNotifications/Pods-RealTimeNotifications.debug.xcconfig"; sourceTree = "<group>"; };
+		17AB7119652909F1CDC65DFB /* Pods_RealTimeNotificationsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeNotificationsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE594751FC957B74350862A /* Pods_RealTimeNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AB778544A54A1BC1759FBE /* Pods-RealTimeNotificationsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeNotificationsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeNotificationsTests/Pods-RealTimeNotificationsTests.release.xcconfig"; sourceTree = "<group>"; };
+		672FB4D72153952E003AC9CC /* RealTimeNotifications-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealTimeNotifications-Bridging-Header.h"; sourceTree = "<group>"; };
+		672FB4D82153952F003AC9CC /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		672FB4D92153952F003AC9CC /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		67BB67A821523E3200115E78 /* RealTimeNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BB67AB21523E3200115E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67BB67AD21523E3200115E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67BB67AD21523E3200115E78 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		67BB67B021523E3200115E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67BB67B221523E3400115E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67BB67B521523E3400115E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		67BB67C721523E3400115E78 /* RealTimeNotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeNotificationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BB67CB21523E3400115E78 /* RealTimeNotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeNotificationsUITests.swift; sourceTree = "<group>"; };
 		67BB67CD21523E3400115E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E01B9A4A2627824BED03EEE /* Pods_RealTimeNotificationsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeNotificationsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98EAF3DAC451DB5C76ACB72 /* Pods-RealTimeNotificationsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeNotificationsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeNotificationsUITests/Pods-RealTimeNotificationsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5B783FDFB50D68CD0D67EF /* Pods-RealTimeNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeNotifications.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeNotifications/Pods-RealTimeNotifications.release.xcconfig"; sourceTree = "<group>"; };
+		C47DCFB86A41D04823406804 /* Pods-RealTimeNotificationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeNotificationsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeNotificationsTests/Pods-RealTimeNotificationsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E075E142F9A7FAD21D7A7F7E /* Pods-RealTimeNotificationsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeNotificationsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeNotificationsUITests/Pods-RealTimeNotificationsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707C324F86AB61D4A0689C7C /* Pods_RealTimeNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A7E824E80FE85BF8CFBC4B /* Pods_RealTimeNotificationsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924870C1475AD5DAE06978F2 /* Pods_RealTimeNotificationsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				67BB67BF21523E3400115E78 /* RealTimeNotificationsTests */,
 				67BB67CA21523E3400115E78 /* RealTimeNotificationsUITests */,
 				67BB67A921523E3200115E78 /* Products */,
+				E0E8543E09CC1F173F84F720 /* Pods */,
+				EBE37E10694531FFBD65BB4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +118,15 @@
 		67BB67AA21523E3200115E78 /* RealTimeNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				672FB4D92153952F003AC9CC /* LocationManager.h */,
+				672FB4D82153952F003AC9CC /* LocationManager.m */,
 				67BB67AB21523E3200115E78 /* AppDelegate.swift */,
-				67BB67AD21523E3200115E78 /* ViewController.swift */,
+				67BB67AD21523E3200115E78 /* HomeViewController.swift */,
 				67BB67AF21523E3200115E78 /* Main.storyboard */,
 				67BB67B221523E3400115E78 /* Assets.xcassets */,
 				67BB67B421523E3400115E78 /* LaunchScreen.storyboard */,
 				67BB67B721523E3400115E78 /* Info.plist */,
+				672FB4D72153952E003AC9CC /* RealTimeNotifications-Bridging-Header.h */,
 			);
 			path = RealTimeNotifications;
 			sourceTree = "<group>";
@@ -125,6 +149,29 @@
 			path = RealTimeNotificationsUITests;
 			sourceTree = "<group>";
 		};
+		E0E8543E09CC1F173F84F720 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00B223A108A38A7583E6EC6D /* Pods-RealTimeNotifications.debug.xcconfig */,
+				BE5B783FDFB50D68CD0D67EF /* Pods-RealTimeNotifications.release.xcconfig */,
+				C47DCFB86A41D04823406804 /* Pods-RealTimeNotificationsTests.debug.xcconfig */,
+				55AB778544A54A1BC1759FBE /* Pods-RealTimeNotificationsTests.release.xcconfig */,
+				B98EAF3DAC451DB5C76ACB72 /* Pods-RealTimeNotificationsUITests.debug.xcconfig */,
+				E075E142F9A7FAD21D7A7F7E /* Pods-RealTimeNotificationsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBE37E10694531FFBD65BB4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE594751FC957B74350862A /* Pods_RealTimeNotifications.framework */,
+				17AB7119652909F1CDC65DFB /* Pods_RealTimeNotificationsTests.framework */,
+				8E01B9A4A2627824BED03EEE /* Pods_RealTimeNotificationsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67BB67D021523E3400115E78 /* Build configuration list for PBXNativeTarget "RealTimeNotifications" */;
 			buildPhases = (
+				FA5C5AF8A0A7F520C93FC6F4 /* [CP] Check Pods Manifest.lock */,
 				67BB67A421523E3200115E78 /* Sources */,
 				67BB67A521523E3200115E78 /* Frameworks */,
 				67BB67A621523E3200115E78 /* Resources */,
+				AE67BA27B7C448827542AFED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67BB67D321523E3400115E78 /* Build configuration list for PBXNativeTarget "RealTimeNotificationsTests" */;
 			buildPhases = (
+				0DF481EFB08E3D0A8A7C787B /* [CP] Check Pods Manifest.lock */,
 				67BB67B821523E3400115E78 /* Sources */,
 				67BB67B921523E3400115E78 /* Frameworks */,
 				67BB67BA21523E3400115E78 /* Resources */,
@@ -167,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67BB67D621523E3400115E78 /* Build configuration list for PBXNativeTarget "RealTimeNotificationsUITests" */;
 			buildPhases = (
+				42AF725E1A93431917ACA06D /* [CP] Check Pods Manifest.lock */,
 				67BB67C321523E3400115E78 /* Sources */,
 				67BB67C421523E3400115E78 /* Frameworks */,
 				67BB67C521523E3400115E78 /* Resources */,
@@ -193,6 +244,12 @@
 				TargetAttributes = {
 					67BB67A721523E3200115E78 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					67BB67BB21523E3400115E78 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -251,12 +308,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DF481EFB08E3D0A8A7C787B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealTimeNotificationsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42AF725E1A93431917ACA06D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealTimeNotificationsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE67BA27B7C448827542AFED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeNotifications/Pods-RealTimeNotifications-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeNotifications/Pods-RealTimeNotifications-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA5C5AF8A0A7F520C93FC6F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealTimeNotifications-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67BB67A421523E3200115E78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67BB67AE21523E3200115E78 /* ViewController.swift in Sources */,
+				672FB4DA2153952F003AC9CC /* LocationManager.m in Sources */,
+				67BB67AE21523E3200115E78 /* HomeViewController.swift in Sources */,
 				67BB67AC21523E3200115E78 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +565,12 @@
 		};
 		67BB67D121523E3400115E78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B223A108A38A7583E6EC6D /* Pods-RealTimeNotifications.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6Q6YU8J4C;
 				INFOPLIST_FILE = RealTimeNotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,6 +578,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.spieler.RealTimeNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RealTimeNotifications/RealTimeNotifications-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,9 +587,12 @@
 		};
 		67BB67D221523E3400115E78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5B783FDFB50D68CD0D67EF /* Pods-RealTimeNotifications.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6Q6YU8J4C;
 				INFOPLIST_FILE = RealTimeNotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +600,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.spieler.RealTimeNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RealTimeNotifications/RealTimeNotifications-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +608,7 @@
 		};
 		67BB67D421523E3400115E78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47DCFB86A41D04823406804 /* Pods-RealTimeNotificationsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +629,7 @@
 		};
 		67BB67D521523E3400115E78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AB778544A54A1BC1759FBE /* Pods-RealTimeNotificationsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +650,7 @@
 		};
 		67BB67D721523E3400115E78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98EAF3DAC451DB5C76ACB72 /* Pods-RealTimeNotificationsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +670,7 @@
 		};
 		67BB67D821523E3400115E78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E075E142F9A7FAD21D7A7F7E /* Pods-RealTimeNotificationsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

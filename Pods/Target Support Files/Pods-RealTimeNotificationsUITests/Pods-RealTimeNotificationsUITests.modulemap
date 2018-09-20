@@ -1,0 +1,6 @@
+framework module Pods_RealTimeNotificationsUITests {
+  umbrella header "Pods-RealTimeNotificationsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
